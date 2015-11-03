@@ -186,8 +186,8 @@ memeResponder = (robot, meme) ->
       msg.send url
 
 memeGenerator = (msg, generatorID, imageID, text0, text1, callback) ->
-  username = process.env.HUBOT_MEMEGEN_USERNAME
-  password = process.env.HUBOT_MEMEGEN_PASSWORD
+  username = "redwards"
+  password = "9Q#vtKdEKIbs"
   preferredDimensions = process.env.HUBOT_MEMEGEN_DIMENSIONS
 
   unless username? and password?
